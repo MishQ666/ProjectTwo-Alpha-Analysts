@@ -37,6 +37,7 @@ $100,000 mimimum investment
 
 ## Prediction and Conclustions
 
+Our prediction 
 
 ## Sources
 [Google Colab](https://drive.google.com/drive/folders/1abuvNk-AlsIswHqVwza9GbKKlGb1UYDL)
