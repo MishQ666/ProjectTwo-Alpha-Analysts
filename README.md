@@ -1,4 +1,4 @@
-# Portfolio Quantum returns
+# Portfolio Quantum Returns
 #### Authored by: [Jenny](https://github.com/jennyntd), [Michelle](https://github.com/MishQ666), [Scott](https://github.com/Bomegolf), and [Thapa](https://github.com/TribThapa)
 
 ![portfolio_investment](https://user-images.githubusercontent.com/83448532/130601866-a740c481-b1f1-49bf-a408-2f7fa13b1e81.jpg)
@@ -21,12 +21,15 @@ Our project is to predict credit card fraud. We'll fit a random forest algorithm
 
 
 ## Portfolio 
+$100,000 mimimum investment 
+- Active Investor: 30% Income stocks (div), 50% Growth , 10% value stock, 10% others
+- Passive Investor: 50% Income stocks (div), 20% Growth, 10% value stock, 10% others
 
-
-## Data Preparation & Model Training 
-Google Colab (hyperlink)
-Machine Learning (hyperlink)
-
+### Your handpicked top performing US Stocks 
+- Income stocks (3): 7.5% each.  [AbbVie](https://finance.yahoo.com/quote/ABBV/), [Pifzer](https://finance.yahoo.com/quote/PFE/), [Bank of America](https://finance.yahoo.com/quote/BAC/), [Coca-Cola](https://finance.yahoo.com/quote/KO/)  
+- Growth stocks (5):8.33% each.  [Sqaure](https://finance.yahoo.com/quote/SQ/), [Apple](https://finance.yahoo.com/quote/AAPL/), [Advanced Mirco Devices Inc](https://finance.yahoo.com/quote/AMD/),[FedEx Corporation](https://finance.yahoo.com/quote/FDX/),[EBAY](https://finance.yahoo.com/quote/EBAY/),[Amazon](https://finance.yahoo.com/quote/EBAY/)
+- Value stock (2): 5% each. [CitiGroup](https://finance.yahoo.com/quote/C/), [Ford](https://finance.yahoo.com/quote/F/)
+- Others(2): 5% each. [Gold ETF](https://au.finance.yahoo.com/quote/GOLD.AX/), [US Crude Oil](https://finance.yahoo.com/quote/CL=F/) 
 
 
 ## [Presentation](https://https://github.com/MishQ666/Project_2/tree/main/Presentation)
@@ -36,7 +39,7 @@ Machine Learning (hyperlink)
 
 
 ## Sources
-
+[Google Colab](https://drive.google.com/drive/folders/1abuvNk-AlsIswHqVwza9GbKKlGb1UYDL)
 
 
 
