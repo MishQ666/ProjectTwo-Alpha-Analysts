@@ -1,4 +1,5 @@
 # Portfolio Hyper Growth/Quantum returns/Super valley
+#### Authored by: [Jenny](https://github.com/jennyntd), [Michelle](https://github.com/MishQ666), [Scott](https://github.com/Bomegolf), and [Thapa](https://github.com/TribThapa)
 
 ![portfolio_investment](https://user-images.githubusercontent.com/83448532/130601866-a740c481-b1f1-49bf-a408-2f7fa13b1e81.jpg)
 
@@ -28,11 +29,14 @@ Machine Learning (hyperlink)
 
 
 
-
-## Presentation 
+## [Presentation](https://https://github.com/MishQ666/Project_2/tree/main/Presentation)
 
 
 ## Prediction and Conclustions
+
+
+## Sources
+
 
 
 
