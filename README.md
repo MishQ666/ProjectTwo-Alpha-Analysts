@@ -1,4 +1,4 @@
-# Portfolio Hyper Growth/Quantum returns/Super valley
+# Portfolio Quantum returns
 #### Authored by: [Jenny](https://github.com/jennyntd), [Michelle](https://github.com/MishQ666), [Scott](https://github.com/Bomegolf), and [Thapa](https://github.com/TribThapa)
 
 ![portfolio_investment](https://user-images.githubusercontent.com/83448532/130601866-a740c481-b1f1-49bf-a408-2f7fa13b1e81.jpg)
