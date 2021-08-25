@@ -26,9 +26,11 @@ $100,000 mimimum investment
 - Passive Investor: 50% Income stocks (div), 20% Growth, 10% value stock, 10% others
 
 ### Your handpicked top performing US Stocks 
-- Income stocks (3): 7.5% each.  [AbbVie](https://finance.yahoo.com/quote/ABBV/), [Pifzer](https://finance.yahoo.com/quote/PFE/), [Bank of America](https://finance.yahoo.com/quote/BAC/), [Coca-Cola](https://finance.yahoo.com/quote/KO/)  
-- Growth stocks (5):8.33% each.  [Sqaure](https://finance.yahoo.com/quote/SQ/), [Apple](https://finance.yahoo.com/quote/AAPL/), [Advanced Mirco Devices Inc](https://finance.yahoo.com/quote/AMD/),[FedEx Corporation](https://finance.yahoo.com/quote/FDX/),[EBAY](https://finance.yahoo.com/quote/EBAY/),[Amazon](https://finance.yahoo.com/quote/EBAY/)
-- Value stock (2): 5% each. [CitiGroup](https://finance.yahoo.com/quote/C/), [Ford](https://finance.yahoo.com/quote/F/)
+- Income stocks (3): 7.5% each.  [AbbVie](https://finance.yahoo.com/quote/ABBV/)(biopharmaceutical), [Pifzer](https://finance.yahoo.com/quote/PFE/)(Pharmaceutical), [Bank of America](https://finance.yahoo.com/quote/BAC/)(investment bank
+), [Coca-Cola](https://finance.yahoo.com/quote/KO/)  (Consumer Cyclical
+)
+- Growth stocks (5):8.33% each.  [Sqaure](https://finance.yahoo.com/quote/SQ/)(Tech), [Apple](https://finance.yahoo.com/quote/AAPL/)(Tech), [Advanced Mirco Devices Inc](https://finance.yahoo.com/quote/AMD/)(Tech),[FedEx Corporation](https://finance.yahoo.com/quote/FDX/)(Logistics),[EBAY](https://finance.yahoo.com/quote/EBAY/),[Amazon](https://finance.yahoo.com/quote/EBAY/)(Consumer Cyclical)
+- Value stock (2): 5% each. [CitiGroup](https://finance.yahoo.com/quote/C/)(Bank), [Ford](https://finance.yahoo.com/quote/F/)(Auto manufacture)
 - Others(2): 5% each. [Gold ETF](https://au.finance.yahoo.com/quote/GOLD.AX/), [US Crude Oil](https://finance.yahoo.com/quote/CL=F/) 
 
 
