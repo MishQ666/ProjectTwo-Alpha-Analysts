@@ -29,7 +29,7 @@ $100,000 mimimum investment
 - Income stocks (3): 7.5% each.  [AbbVie](https://finance.yahoo.com/quote/ABBV/)(biopharmaceutical), [Pifzer](https://finance.yahoo.com/quote/PFE/)(Pharmaceutical), [Bank of America](https://finance.yahoo.com/quote/BAC/)(investment bank
 ), [Coca-Cola](https://finance.yahoo.com/quote/KO/)  (Consumer Cyclical
 )
-- Growth stocks (5):8.33% each.  [Sqaure](https://finance.yahoo.com/quote/SQ/)(Tech), [Apple](https://finance.yahoo.com/quote/AAPL/)(Tech), [Advanced Mirco Devices Inc](https://finance.yahoo.com/quote/AMD/)(Tech),[FedEx Corporation](https://finance.yahoo.com/quote/FDX/)(Logistics),[EBAY](https://finance.yahoo.com/quote/EBAY/),[Amazon](https://finance.yahoo.com/quote/EBAY/)(Consumer Cyclical)
+- Growth stocks (5):8.33% each.  [Sqaure](https://finance.yahoo.com/quote/SQ/)(Tech), [Apple](https://finance.yahoo.com/quote/AAPL/)(Tech), [Advanced Mirco Devices Inc](https://finance.yahoo.com/quote/AMD/)(Tech),[FedEx Corporation](https://finance.yahoo.com/quote/FDX/)(Logistics),[EBAY](https://finance.yahoo.com/quote/EBAY/)(Tech),[Amazon](https://finance.yahoo.com/quote/EBAY/)(Consumer Cyclical)
 - Value stock (2): 5% each. [CitiGroup](https://finance.yahoo.com/quote/C/)(Bank), [Ford](https://finance.yahoo.com/quote/F/)(Auto manufacture)
 - Others(2): 5% each. [Gold ETF](https://au.finance.yahoo.com/quote/GOLD.AX/), [US Crude Oil](https://finance.yahoo.com/quote/CL=F/) 
 
