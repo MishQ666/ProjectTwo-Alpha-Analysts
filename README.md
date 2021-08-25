@@ -32,7 +32,7 @@ $100,000 mimimum investment
 - Others(2): 5% each. [Gold ETF](https://au.finance.yahoo.com/quote/GOLD.AX/), [US Crude Oil](https://finance.yahoo.com/quote/CL=F/) 
 
 
-## [Presentation](https://https://github.com/MishQ666/Project_2/tree/main/Presentation)
+## [Presentation](https://github.com/MishQ666/Project_2/tree/main/Presentation)
 
 
 ## Prediction and Conclustions
