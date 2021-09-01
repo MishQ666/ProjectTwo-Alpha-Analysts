@@ -1,24 +1,19 @@
-# Portfolio Quantum Returns
+# Alpha Analysts
 #### Authored by: [Jenny](https://github.com/jennyntd), [Michelle](https://github.com/MishQ666), [Scott](https://github.com/Bomegolf), and [Thapa](https://github.com/TribThapa)
 
-![portfolio_investment](https://user-images.githubusercontent.com/83448532/130601866-a740c481-b1f1-49bf-a408-2f7fa13b1e81.jpg)
+Our project is aiming to predict the direction of a list of US top performing stocks. 
+
+![alpha analysts](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.wealthwithin.com.au%2Fpublic%2Fimg%2Ftrading-the-stock-market-for-profit.png&imgrefurl=https%3A%2F%2Fwww.wealthwithin.com.au%2Flearning-centre%2Fshare-trading-tips%2Ftrading-the-stock-market&tbnid=UZxn5G0w3guEQM&vet=12ahUKEwjytvCD5t3yAhUi1HMBHepjBLQQMygFegUIARDQAQ..i&docid=UkUiGTdOrd7rzM&w=450&h=300&q=stock%20trading&ved=2ahUKEwjytvCD5t3yAhUi1HMBHepjBLQQMygFegUIARDQAQ)
 
 ## Summary 
 
-The kind of data you'd like to work with and the field you're interested in (e.g., trading, quantitative analysis).
+General Advice Warning 
 
+Information published on this website has been prepared for general information purposes only and not as specific advice to any particular person. Any advice contained in this document is General Advice and does not take into account any person’s particular investment objectives, financial situation and particular needs.
 
-Possible sources for such data.
+Before making an investment decision based on this advice you should consider, with or without the assistance of a qualified adviser, whether it is appropriate to your particular investment needs, objectives and financial circumstances.  Past performance of financial products is no assurance of future performance.
 
-
-Candidate machine learning or statistical models that you may want to explore.
-
-
-
-This constitutes your Project Proposal and Outline, which should look something like this:
-
-Our project is to predict credit card fraud. We'll fit a random forest algorithm to lending club data to create a predictive model. We will also fit a deep neural network model to the data, and compare the performance of both models to determine which has sufficient predictive power.
-
+Due to time limitation, we are focusing on Amazon only for demonstration purpose. 
 
 ## Portfolio 
 $100,000 mimimum investment 
