@@ -38,10 +38,10 @@ Our prediction
 ## Sources
 - [Google Colab](https://drive.google.com/drive/folders/1abuvNk-AlsIswHqVwza9GbKKlGb1UYDL)
 - [ScikitLearn](https://scikit-learn.org/stable/)
-- [matplotlib](https://matplotlib.org/)
-- [pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html)
-- [yfinance](https://pypi.org/project/yfinance/)
-- [vectorbt](https://vectorbt.dev/)
+- [Matplotlib](https://matplotlib.org/)
+- [Pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html)
+- [Yfinance](https://pypi.org/project/yfinance/)
+- [Vectorbt](https://vectorbt.dev/)
 - [Quantstats](https://www.youtube.com/watch?v=gsS3JxPXXvg)
 
 
