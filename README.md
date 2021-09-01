@@ -3,7 +3,7 @@
 
 Our project is aiming to predict the direction of a list of US top performing stocks. 
 
-![alpha analysts](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.wealthwithin.com.au%2Fpublic%2Fimg%2Ftrading-the-stock-market-for-profit.png&imgrefurl=https%3A%2F%2Fwww.wealthwithin.com.au%2Flearning-centre%2Fshare-trading-tips%2Ftrading-the-stock-market&tbnid=UZxn5G0w3guEQM&vet=12ahUKEwjytvCD5t3yAhUi1HMBHepjBLQQMygFegUIARDQAQ..i&docid=UkUiGTdOrd7rzM&w=450&h=300&q=stock%20trading&ved=2ahUKEwjytvCD5t3yAhUi1HMBHepjBLQQMygFegUIARDQAQ)
+![alpha analysts](https://techcrunch.com/wp-content/uploads/2019/06/GettyImages-1051659174.jpg?w=730&crop=1)
 
 ## Summary 
 
