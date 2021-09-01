@@ -7,11 +7,12 @@ Our project is aiming to predict the direction of a list of US top performing st
 
 ![alpha analysts](https://techcrunch.com/wp-content/uploads/2019/06/GettyImages-1051659174.jpg?w=730&crop=1)
 
-General Advice Warning:  Information published on this website has been prepared for general information purposes only and not as specific advice to any particular person. Any advice contained in this document is General Advice and does not take into account any person’s particular investment objectives, financial situation and particular needs.
+*General Advice Warning*
+*Information published on this website has been prepared for general information purposes only and not as specific advice to any particular person. Any advice contained in this document is General Advice and does not take into account any person’s particular investment objectives, financial situation and particular needs.*
 
-Before making an investment decision based on this advice you should consider, with or without the assistance of a qualified adviser, whether it is appropriate to your particular investment needs, objectives and financial circumstances.  Past performance of financial products is no assurance of future performance.
+*Before making an investment decision based on this advice you should consider, with or without the assistance of a qualified adviser, whether it is appropriate to your particular investment needs, objectives and financial circumstances.  Past performance of financial products is no assurance of future performance.*
 
-Due to time limitation, we are focusing on Amazon only for demonstration purpose. 
+*Due to time limitation, we are focusing on Amazon only for demonstration purpose.*
 
 
 ## Portfolio 
