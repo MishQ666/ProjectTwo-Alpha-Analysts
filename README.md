@@ -40,10 +40,9 @@ Regression models:
 In summary, all R square have a negative value in the models selected above, indicating that the Regression models does not follow the trend of the data, so fits worse than a horizontal line. It is usually the case when there are constraints on either the intercept or the slope of the linear regression line.
 
 
-
-	<p align="center">
-    		<img src="/Image/RegressionTable.png" width="1000">
-	</p>
+<p align="center">
+    	<img src="/Image/RegressionTable.png" width="1000">
+</p>
  
 Classification models:
 - Classification
