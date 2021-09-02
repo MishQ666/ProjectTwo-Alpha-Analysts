@@ -20,6 +20,17 @@ Our project is aiming to predict the direction of a list of US top performing st
 Our project aimed to determine BUY-SELL signals for top performing US stocks using MACD indicators and TimeSeries analysis. 
 
 - TimeSeries analysis was used to determine stock price 5-days moving forward
+
+<p align="center">
+    	<img src="/Image/ARIMA_Table.png" width="1000">
+</p>
+
+
+<p align="center">
+    	<img src="/Image/Forecast.png" width="1000">
+</p>
+
+
 - MACD indicators were used to determine bullish or bearish movement in the market to reflect stock price strengthening or weakening 
 
 ![TradeSignal](https://github.com/MishQ666/ProjectTwo-Alpha-Analysts/blob/main/Image/AMZN_TradeSignal.png)
@@ -37,7 +48,7 @@ Regression models:
 - Ridge Regression
 - Stochastic Gradient Design
 
-In summary, all R square have a negative value in the models selected above, indicating that the Regression models does not follow the trend of the data, so fits worse than a horizontal line. It is usually the case when there are constraints on either the intercept or the slope of the linear regression line.
+In summary, all R squares have a negative value in the models selected above, indicating that the Regression models does not follow the trend of the data, so fits worse than a horizontal line. It is usually the case when there are constraints on either the intercept or the slope of the linear regression line.
 
 
 <p align="center">
