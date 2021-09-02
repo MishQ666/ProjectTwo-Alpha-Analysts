@@ -15,19 +15,47 @@ Our project is aiming to predict the direction of a list of US top performing st
 *Due to time limitation, we are focusing on Amazon only for demonstration purpose.*
 
 
-## Portfolio 
-$100,000 mimimum investment 
-- Active Investor: 30% Income stocks (div), 50% Growth , 10% value stock, 10% others
-- Passive Investor: 50% Income stocks (div), 20% Growth, 10% value stock, 10% others
+## Project description
 
-### Your handpicked top performing US Stocks 
-- Income stocks (3): 7.5% each.  [AbbVie](https://finance.yahoo.com/quote/ABBV/)(biopharmaceutical), [Pifzer](https://finance.yahoo.com/quote/PFE/)(Pharmaceutical), [Bank of America](https://finance.yahoo.com/quote/BAC/)(investment bank
-), [Coca-Cola](https://finance.yahoo.com/quote/KO/)  (Consumer Cyclical
-)
-- Growth stocks (5):8.33% each.  [Sqaure](https://finance.yahoo.com/quote/SQ/)(Tech), [Apple](https://finance.yahoo.com/quote/AAPL/)(Tech), [Advanced Mirco Devices Inc](https://finance.yahoo.com/quote/AMD/)(Tech),[FedEx Corporation](https://finance.yahoo.com/quote/FDX/)(Logistics),[EBAY](https://finance.yahoo.com/quote/EBAY/)(Tech),[Amazon](https://finance.yahoo.com/quote/EBAY/)(Consumer Cyclical)
-- Value stock (2): 5% each. [CitiGroup](https://finance.yahoo.com/quote/C/)(Bank), [Ford](https://finance.yahoo.com/quote/F/)(Auto manufacture)
-- Others(2): 5% each. [Gold ETF](https://au.finance.yahoo.com/quote/GOLD.AX/), [US Crude Oil](https://finance.yahoo.com/quote/CL=F/) 
+Our project aimed to determine BUY-SELL signals for top performing US stocks using MACD indicators and TimeSeries analysis. 
 
+- TimeSeries analysis was used to determine stock price 5-days moving forward
+- MACD indicators were used to determine bullish or bearish movement in the market to reflect stock price strengthening or weakening 
+
+![TradeSignal] https://github.com/MishQ666/ProjectTwo-Alpha-Analysts/blob/main/Image/AMZN_TradeSignal.png
+
+
+Besides, we also used Classification and Regression machine learning models to train and predict stock prices:
+
+Regression models:
+- Regression
+- Linear Regression
+- Random Forest
+- Extra trees
+- Lasso Regression
+- Ridge Regression
+- Stochastic Gradient Design
+ 
+Classification models:
+- Classification
+- Logistic Regression
+- Random Forest Classifier
+- Gradient Boosting Classifier
+- Ada Boost Classifier
+- XGB Forest Classifier
+
+Insert summary chart here
+In summary, Ridge Regression and Linear Regression models are a relatively better prediction model, with Linear Regression having a slightly lower Root Mean Squared Error, being the best performing model among all regression models above.
+
+ 
+Insert summary chart here
+According to the chart above, the results are the same thus provided limited insights
+ TIME SERIES
+Insert chart
+We used ARIMA model indicating that it is a good fit for stock price prediction.
+Algo trading/ backdatingResources/ or Packages we used
+Insert chars
+Bonus: Our back-testing results indicated a return of $XXX if investors practice a hold strategy when compared to actively trading according to the MACD signals.
 
 ## [Presentation](https://github.com/MishQ666/Project_2/tree/main/Presentation)
 
