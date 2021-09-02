@@ -49,6 +49,10 @@ Classification models:
 - Ada Boost Classifier
 - XGB Forest Classifier
 
+	<p align="center">
+    		<img src="/Image/ClassificationTable.png" width="1000">
+	</p>
+
 Insert summary chart here
 In summary, Ridge Regression and Linear Regression models are a relatively better prediction model, with Linear Regression having a slightly lower Root Mean Squared Error, being the best performing model among all regression models above.
 
