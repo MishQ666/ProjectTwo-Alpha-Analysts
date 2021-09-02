@@ -64,7 +64,7 @@ Classification models:
 - XGB Forest Classifier
 
 	<p align="center">
-    		<img src="/Image/ClassificationTable.png" width="1000">
+    		<img src="/Image/ML_Class_Table.JPG" width="1000">
 	</p>
 
 
