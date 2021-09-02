@@ -37,6 +37,10 @@ Regression models:
 - Ridge Regression
 - Stochastic Gradient Design
 
+In summary, all R square have a negative value in the models selected above, indicating that the Regression models does not follow the trend of the data, so fits worse than a horizontal line. It is usually the case when there are constraints on either the intercept or the slope of the linear regression line.
+
+
+
 	<p align="center">
     		<img src="/Image/RegressionTable.png" width="1000">
 	</p>
@@ -53,12 +57,8 @@ Classification models:
     		<img src="/Image/ClassificationTable.png" width="1000">
 	</p>
 
-Insert summary chart here
-In summary, Ridge Regression and Linear Regression models are a relatively better prediction model, with Linear Regression having a slightly lower Root Mean Squared Error, being the best performing model among all regression models above.
 
- 
-Insert summary chart here
-According to the chart above, the results are the same thus provided limited insights
+
  TIME SERIES
 Insert chart
 We used ARIMA model indicating that it is a good fit for stock price prediction.
@@ -69,7 +69,7 @@ Bonus: Our back-testing results indicated a return of $XXX if investors practice
 ## [Presentation](https://github.com/MishQ666/Project_2/tree/main/Presentation)
 
 
-## Prediction and Conclustions
+## Prediction and Conclusion
 
 Our prediction 
 
