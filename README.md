@@ -5,6 +5,10 @@
 ## Summary 
 Our project is aiming to predict the direction of a list of US top performing stocks. 
 
+<p align="center">
+    	<img src="https://techcrunch.com/wp-content/uploads/2019/06/GettyImages-1051659174.jpg?w=730&crop=1" width="1000">
+</p>
+
 ![alpha analysts](https://techcrunch.com/wp-content/uploads/2019/06/GettyImages-1051659174.jpg?w=730&crop=1)
 
 *General Advice Warning*
