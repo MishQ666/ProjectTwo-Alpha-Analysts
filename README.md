@@ -52,7 +52,7 @@ In summary, all R squares have a negative value in the models selected above, in
 
 
 <p align="center">
-    	<img src="/Image/RegressionTable.png" width="1000">
+    	<img src="/Image/ML_Reg_Table.JPG" width="1000">
 </p>
  
 Classification models:
