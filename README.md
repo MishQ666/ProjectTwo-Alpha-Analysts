@@ -71,7 +71,7 @@ Classification models:
 
 ## Conclusion
 
-In conlusion, MACD prices are good indicators to generate BUY-SELL signals. However, other metrics such as Relative Strength Indicator (RSI) and Fibonacci indicators should also be used to make an informed decision to trigger a BUY or SELL.
+In conclusion, MACD prices are good indicators to generate BUY-SELL signals. However, other metrics such as Relative Strength Indicator (RSI) and Fibonacci indicators should also be considered when making an informed decision to trigger a BUY or SELL.
 
 ## Sources
 - [Google Colab](https://drive.google.com/drive/folders/1abuvNk-AlsIswHqVwza9GbKKlGb1UYDL)
