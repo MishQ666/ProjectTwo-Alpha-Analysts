@@ -69,19 +69,9 @@ Classification models:
 
 
 
- TIME SERIES
-Insert chart
-We used ARIMA model indicating that it is a good fit for stock price prediction.
-Algo trading/ backdatingResources/ or Packages we used
-Insert chars
-Bonus: Our back-testing results indicated a return of $XXX if investors practice a hold strategy when compared to actively trading according to the MACD signals.
+## Conclusion
 
-## [Presentation](https://github.com/MishQ666/Project_2/tree/main/Presentation)
-
-
-## Prediction and Conclusion
-
-Our prediction 
+In conlusion, MACD prices are good indicators to generate BUY-SELL signals. However, other metrics such as Relative Strength Indicator (RSI) and Fibonacci indicators should also be used to make an informed decision to trigger a BUY or SELL.
 
 ## Sources
 - [Google Colab](https://drive.google.com/drive/folders/1abuvNk-AlsIswHqVwza9GbKKlGb1UYDL)
