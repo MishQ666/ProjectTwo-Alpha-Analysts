@@ -22,7 +22,7 @@ Our project aimed to determine BUY-SELL signals for top performing US stocks usi
 - TimeSeries analysis was used to determine stock price 5-days moving forward
 
 <p align="center">
-    	<img src="/Image/ARIMA_Table.png" width="1000" height="100">
+    	<img src="/Image/ARIMA_Table.png" width="1000" height="700">
 </p>
 
 
