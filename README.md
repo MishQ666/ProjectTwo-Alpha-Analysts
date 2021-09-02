@@ -36,6 +36,10 @@ Regression models:
 - Lasso Regression
 - Ridge Regression
 - Stochastic Gradient Design
+
+	<p align="center">
+    		<img src="/Image/RegressionTable.png" width="1000">
+	</p>
  
 Classification models:
 - Classification
