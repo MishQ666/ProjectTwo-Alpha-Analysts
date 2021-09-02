@@ -22,7 +22,7 @@ Our project aimed to determine BUY-SELL signals for top performing US stocks usi
 - TimeSeries analysis was used to determine stock price 5-days moving forward
 - MACD indicators were used to determine bullish or bearish movement in the market to reflect stock price strengthening or weakening 
 
-![TradeSignal] https://github.com/MishQ666/ProjectTwo-Alpha-Analysts/blob/main/Image/AMZN_TradeSignal.png
+[TradeSignal](https://github.com/MishQ666/ProjectTwo-Alpha-Analysts/blob/main/Image/AMZN_TradeSignal.png)
 
 
 Besides, we also used Classification and Regression machine learning models to train and predict stock prices:
