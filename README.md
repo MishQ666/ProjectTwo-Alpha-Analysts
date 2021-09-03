@@ -64,7 +64,7 @@ Classification models:
 - Random Forest Classifier
 - Gradient Boosting Classifier
 - Ada Boost Classifier
-- XGB Forest Classifier
+- XGBoost Classifier
 
 <p align="center">
    	<img src="/Image/ML_Class_Table.JPG" width="1000">
