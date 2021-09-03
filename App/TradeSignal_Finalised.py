@@ -163,27 +163,22 @@ if ticker_symbol:
     # Calculate MACD data and add to dictionary
     macd_list = {}
     
-    for ticker in ticker_symbol:
 
-        # MACD data
-        ewm_fast = tickers_df["Close"].ewm(span = 12, adjust = False).mean()
+    # MACD data
+    ewm_fast = tickers_df["Close"].ewm(span = 12, adjust = False).mean()
+    ewm_slow = tickers_df["Close"].ewm(span = 26, adjust = False).mean()
+    macd = pd.DataFrame(ewm_fast - ewm_slow)
+    macd = macd.rename(columns = {"Close":"macd"})
 
-        ewm_slow = tickers_df["Close"].ewm(span = 26, adjust = False).mean()
+    # Signal data
+    signal = pd.DataFrame(macd["macd"].ewm(span = 9, adjust = False).mean()).rename(columns = {"macd":"signal"})
 
-        macd = pd.DataFrame(ewm_fast - ewm_slow)
+    # Histogram data
+    histogram = pd.DataFrame(macd["macd"] - signal["signal"]).rename(columns = {0:("hist")})
+    ticker_macd = pd.concat([macd, signal, histogram],
+                            axis = 1)
 
-        macd = macd.rename(columns = {"Close":"macd"})
-
-        # Signal data
-        signal = pd.DataFrame(macd["macd"].ewm(span = 9, adjust = False).mean()).rename(columns = {"macd":"signal"})
-
-        # Histogram data
-        histogram = pd.DataFrame(macd["macd"] - signal["signal"]).rename(columns = {0:("hist")})
-
-        ticker_macd = pd.concat([macd, signal, histogram],
-                                axis = 1)
-
-        macd_list[ticker] = ticker_macd
+    macd_list[ticker_symbol] = ticker_macd
 
         
         
@@ -192,40 +187,35 @@ if ticker_symbol:
     plt.rcParams["figure.figsize"] = [18,12]
 
     ax1 = plt.subplot2grid((15,1), (0,0), rowspan = 5, colspan = 5)
-
     ax2 = plt.subplot2grid((15,1), (7,0), rowspan = 3, colspan = 5)
+    ax1.plot(tickers_df["Close"], color = 'gray', linewidth = 2, label = ticker_symbol)
+    ax1.set_title(f'{ticker_symbol} MACD SIGNALS')
 
-    ax1.plot(tickers_df["Close"], color = 'gray', linewidth = 2, label = ticker)
-
-    ax1.set_title(f'MACD SIGNALS')
-
-    ax2.plot(macd_list[ticker]['macd'],
+    ax2.plot(macd_list[ticker_symbol]['macd'],
              color = 'skyblue',
              linewidth = 1.5, 
              label = 'MACD')
 
-    ax2.plot(macd_list[ticker]['signal'],
+    ax2.plot(macd_list[ticker_symbol]['signal'],
              color = 'orange',
              linewidth = 1.5,
              label = 'SIGNAL')
 
-    for i in range(len(macd_list[ticker])):
+    for i in range(len(macd_list[ticker_symbol])):
 
-        if str(macd_list[ticker]['hist'][i])[0] == '-':
+        if str(macd_list[ticker_symbol]['hist'][i])[0] == '-':
 
-            ax2.bar(macd_list[ticker].index[i], 
-                    macd_list[ticker]['hist'][i],
+            ax2.bar(macd_list[ticker_symbol].index[i], 
+                    macd_list[ticker_symbol]['hist'][i],
                     color = 'red')
         else:
 
-            ax2.bar(macd_list[ticker].index[i], 
-                    macd_list[ticker]['hist'][i], 
+            ax2.bar(macd_list[ticker_symbol].index[i], 
+                    macd_list[ticker_symbol]['hist'][i], 
                     color = 'green')
 
     plt.legend(loc = 'lower right')
     st.pyplot(plt)
-        
-        
         
     def implement_macd_strategy(prices, data):  
         buy_price = []
@@ -270,7 +260,7 @@ if ticker_symbol:
     
      # Run trade strategy and plot buy and sell signals
 
-    buy_price, sell_price, macd_signal = implement_macd_strategy(tickers_df["Close"], macd_list[ticker])
+    buy_price, sell_price, macd_signal = implement_macd_strategy(tickers_df["Close"], macd_list[ticker_symbol])
 
     plt.rcParams["figure.figsize"] = [18,12]
 
@@ -281,7 +271,7 @@ if ticker_symbol:
     ax1.plot(tickers_df["Close"], 
              color = 'gray',
              linewidth = 2,
-             label = ticker)
+             label = ticker_symbol)
 
     ax1.plot(tickers_df["Close"].index,
              buy_price, 
@@ -301,29 +291,29 @@ if ticker_symbol:
 
     ax1.legend()
 
-    ax1.set_title(f'MACD BUY-SELL SIGNAL')
+    ax1.set_title(f'{ticker_symbol} MACD BUY-SELL SIGNAL')
 
-    ax2.plot(macd_list[ticker]['macd'],
+    ax2.plot(macd_list[ticker_symbol]['macd'],
              color = 'skyblue',
              linewidth = 1.5, 
              label = 'MACD')
 
-    ax2.plot(macd_list[ticker]['signal'], 
+    ax2.plot(macd_list[ticker_symbol]['signal'], 
              color = 'orange', 
              linewidth = 1.5,
              label = 'SIGNAL')
 
-    for i in range(len(macd_list[ticker])):
+    for i in range(len(macd_list[ticker_symbol])):
 
-        if str(macd_list[ticker]['hist'][i])[0] == '-':
+        if str(macd_list[ticker_symbol]['hist'][i])[0] == '-':
 
-            ax2.bar(macd_list[ticker].index[i],
-                    macd_list[ticker]['hist'][i], 
+            ax2.bar(macd_list[ticker_symbol].index[i],
+                    macd_list[ticker_symbol]['hist'][i], 
                     color = 'r')
         else:
 
-            ax2.bar(macd_list[ticker].index[i],
-                    macd_list[ticker]['hist'][i], 
+            ax2.bar(macd_list[ticker_symbol].index[i],
+                    macd_list[ticker_symbol]['hist'][i], 
                     color = 'g')
 
     plt.legend(loc = 'lower right')
@@ -333,37 +323,36 @@ if ticker_symbol:
     # Run strategy to create position
     stock_strategy = {}
 
-    for ticker in stock_name:     
+    buy_price, sell_price, macd_signal = implement_macd_strategy(tickers_df["Close"], macd_list[stock_name])
 
-        buy_price, sell_price, macd_signal = implement_macd_strategy(tickers_df["Close"], macd_list[ticker])
+    position = []
 
-        position = []
+    for i in range(len(macd_signal)):        
+        if macd_signal[i] > 1:
+            position.append(0)
+        else:
+            position.append(1)
 
-        for i in range(len(macd_signal)):        
-            if macd_signal[i] > 1:
-                position.append(0)
-            else:
-                position.append(1)
+    for i in range(len(tickers_df['Close'])):
 
-        for i in range(len(tickers_df['Close'])):
-            if macd_signal[i] == 1:
-                position[i] = 1
-            elif macd_signal[i] == -1:
-                position[i] = 0
-            else:
-                position[i] = position[i-1]
+        if macd_signal[i] == 1:
+            position[i] = 1
+        elif macd_signal[i] == -1:
+            position[i] = 0
+        else:
+            position[i] = position[i-1]
 
-        macd = macd_list[ticker]['macd']
+        macd = macd_list[stock_name]['macd']
 
-        signal = macd_list[ticker]['signal']
+        signal = macd_list[stock_name]['signal']
 
         close_price = tickers_df["Close"]
 
-        macd_signal = pd.DataFrame(macd_signal).rename(columns = {0:'macd_signal'}).set_index(tickers_df["Close"].index)
+        macd_signal_df = pd.DataFrame(macd_signal).rename(columns = {0:'macd_signal'}).set_index(tickers_df["Close"].index)
 
         position = pd.DataFrame(position).rename(columns = {0:'macd_position'}).set_index(tickers_df["Close"].index)
 
-        frames = [close_price, macd, signal, macd_signal, position]
+        frames = [close_price, macd, signal, macd_signal_df, position]
 
         stock_strategy = pd.concat(frames, 
                                    join = 'inner',
