@@ -20,8 +20,6 @@ Our project aimed to determine BUY-SELL signals for any stock listed on the US S
 
 ## Project description
 
-Our project aimed to determine BUY-SELL signals for top performing US stocks using MACD indicators and TimeSeries analysis. 
-
 - TimeSeries analysis was used to determine stock price 5-days moving forward
 
 <p align="center">
