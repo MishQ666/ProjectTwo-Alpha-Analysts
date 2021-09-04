@@ -20,7 +20,7 @@ Our project aimed to determine BUY-SELL signals for any stock listed on the US S
 
 ## Project description
 
-- TimeSeries analysis was used to determine stock price 5-days moving forward
+- TimeSeries analysis was used to forecast the close price for any stock 5-days into the future
 
 <p align="center">
     	<img src="/Image/ARIMA_Table.JPG" width="300" height="400">
@@ -37,6 +37,9 @@ Our project aimed to determine BUY-SELL signals for any stock listed on the US S
 ![TradeSignal](https://github.com/MishQ666/ProjectTwo-Alpha-Analysts/blob/main/Image/AMZN_MACDSig_Indv.JPG)
 
 - Here, is that [MACD App](https://drive.google.com/drive/folders/1abuvNk-AlsIswHqVwza9GbKKlGb1UYDL) you can use to determine your BUY-SELL signal for any stock listed on the US Stock Exchange.
+
+
+
 
 
 Besides, we also used Classification and Regression machine learning models to train and predict stock prices:
