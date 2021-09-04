@@ -39,7 +39,8 @@ Our project aimed to determine BUY-SELL signals for any stock listed on the US S
 - Here, is that [MACD App](https://drive.google.com/drive/folders/1abuvNk-AlsIswHqVwza9GbKKlGb1UYDL) you can use to determine your BUY-SELL signal for any stock listed on the US Stock Exchange.
 
 
-&nbsp; 
+<p>&nbsp;</p>
+ 
 Besides, we also used Classification and Regression machine learning models to train and predict stock prices:
 
 Regression models:
