@@ -81,6 +81,7 @@ In summary, for all Classification models we have low recall and precision value
 
 In conclusion, MACD prices are good indicators to generate BUY-SELL signals. However, other metrics such as Relative Strength Indicator (RSI) and Fibonacci indicators should also be considered when making an informed decision to trigger a BUY or SELL.
 
+<p>&nbsp;</p>
 ## Sources
 - [Google Colab](https://drive.google.com/drive/folders/1abuvNk-AlsIswHqVwza9GbKKlGb1UYDL)
 - [ScikitLearn](https://scikit-learn.org/stable/)
