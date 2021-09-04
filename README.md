@@ -30,7 +30,7 @@ Our project aimed to determine BUY-SELL signals for top performing US stocks usi
 
 
 <p align="center">
-    	<img src="/Image/Forecast.JPG" width="1000">
+    	<img src="/Image/Forecast.JPG" width="800">
 </p>
 
 
