@@ -416,7 +416,7 @@ if ticker_symbol:
 
     portfolio.total_profit() 
 
-    st.header(f"With an inital investment of $1,00,000 in this stock, your total profit of just holding the stock for 3-months will be ${portfolio.total_profit():.2f}")
+    st.header(f"With an inital investment of $100,000 in this stock, your total profit of just holding the stock for 3-months will be ${portfolio.total_profit():.2f}")
     
     total_profit = []
 
@@ -432,4 +432,4 @@ if ticker_symbol:
         # Total profit
         total_profit.append(portfolio.total_profit())
 
-    st.header(f"With an inital investment of $1,00,000 in this stock, the total profit of trading based upon MACD signals will be ${sum(total_profit):.2f}")
+    st.header(f"With an inital investment of $100,000 in this stock, the total profit of trading based upon MACD signals will be ${sum(total_profit):.2f}")
