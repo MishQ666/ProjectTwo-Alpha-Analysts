@@ -36,7 +36,7 @@ Our project aimed to determine BUY-SELL signals for top performing US stocks usi
 
 - MACD indicators were used to determine bullish or bearish movement in the market to reflect stock price strengthening or weakening 
 
-![TradeSignal](https://github.com/MishQ666/ProjectTwo-Alpha-Analysts/blob/main/Image/AMZN_MACDSig_Indv.png)
+![TradeSignal](https://github.com/MishQ666/ProjectTwo-Alpha-Analysts/blob/main/Image/AMZN_MACDSig_Indv.JPG)
 
 
 
