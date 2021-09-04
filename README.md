@@ -2,8 +2,8 @@
 #### Authored by: [Jenny](https://github.com/jennyntd), [Michelle](https://github.com/MishQ666), [Scott](https://github.com/Bomegolf), and [Thapa](https://github.com/TribThapa)
 
 
-## Summary 
-Our project is aiming to predict the direction of a list of US top performing stocks. 
+## Project Overview
+Our project aimed to determine BUY-SELL signals for any stock listed on the US Stock Exchange using Time-series analysis. 
 
 <p align="center">
     	<img src="https://techcrunch.com/wp-content/uploads/2019/06/GettyImages-1051659174.jpg?w=730&crop=1" width="1000">
@@ -38,6 +38,7 @@ Our project aimed to determine BUY-SELL signals for top performing US stocks usi
 
 ![TradeSignal](https://github.com/MishQ666/ProjectTwo-Alpha-Analysts/blob/main/Image/AMZN_MACDSig_Indv.JPG)
 
+- Here, is that [MACD App](https://drive.google.com/drive/folders/1abuvNk-AlsIswHqVwza9GbKKlGb1UYDL) you can use to determine your BUY-SELL signal for any stock listed on the US Stock Exchange.
 
 
 Besides, we also used Classification and Regression machine learning models to train and predict stock prices:
@@ -65,6 +66,9 @@ Classification models:
 - Gradient Boosting Classifier
 - Ada Boost Classifier
 - XGBoost Classifier
+
+In summary, for all Classification models we have low recall and precision values. This suggests, on average, our Classification models would be ~65% accurate which is not good enough to determine BUY-SELL signals when trading.
+
 
 <p align="center">
    	<img src="/Image/ML_Class_Table.JPG" width="1000">
