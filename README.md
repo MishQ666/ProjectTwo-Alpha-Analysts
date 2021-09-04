@@ -28,7 +28,7 @@ Our project aimed to determine BUY-SELL signals for any stock listed on the US S
 
 
 <p align="center">
-    	<img src="/Image/Forecast.JPG" width="500">
+    	<img src="/Image/Forecast.JPG" width="500" height="300">
 </p>
 
 
