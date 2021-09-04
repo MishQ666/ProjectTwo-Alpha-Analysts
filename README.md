@@ -23,7 +23,7 @@ Our project aimed to determine BUY-SELL signals for any stock listed on the US S
 - TimeSeries analysis was used to forecast the close price for any stock 5-days into the future
 
 <p align="center">
-    	<img src="/Image/ARIMA_Table.JPG" width="300" height="400">
+    	<img src="/Image/ARIMA_Table.png" width="300" height="400">
 </p>
 
 
