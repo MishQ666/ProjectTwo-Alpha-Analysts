@@ -1,5 +1,6 @@
 # StreamLit setup
 import streamlit as st
+from PIL import Image
 
 # Import libraries and dependencies
 import numpy as np
@@ -17,6 +18,8 @@ from statsmodels.tsa.arima_model import ARIMA
 import yfinance as yf
 import vectorbt as vbt
 
+# GIF
+st.image("Trading.gif", width=None)
 
 st.title("Determine trade signals based upon MACD traces")
 
@@ -30,6 +33,10 @@ st.write('''
 st.header("Enter your stock ticker symbol")
 
 ticker_symbol = st.text_input('(Example: AAPL)')
+
+st.header("Enter amount you want to invest in this stock")
+cash_inv = st.text_input('(Example: 1000)')
+
 
 stock_name = ticker_symbol
 
@@ -277,7 +284,7 @@ if ticker_symbol:
              buy_price, 
              marker = '^',
              color = 'green', 
-             markersize = 10, 
+             markersize = 6, 
              label = 'BUY SIGNAL',
              linewidth = 0)
 
@@ -285,7 +292,7 @@ if ticker_symbol:
              sell_price, 
              marker = 'v', 
              color = 'r',
-             markersize = 10,
+             markersize = 6,
              label = 'SELL SIGNAL',
              linewidth = 0)
 
@@ -404,7 +411,7 @@ if ticker_symbol:
        
     
     # Initial investment
-    init_cash = 100000
+    init_cash = int(cash_inv)
 
     # Total profit earned from holding stock. Timeframe 3 months
     for ticker in stock_name:
@@ -416,7 +423,7 @@ if ticker_symbol:
 
     portfolio.total_profit() 
 
-    st.header(f"With an inital investment of $100,000 in this stock, your total profit of just holding the stock from 2020-01-01 will be ${portfolio.total_profit():.2f}")
+    st.header(f"With an inital investment of ${init_cash} in this stock, your total profit of just holding the stock from 2020-01-01 will be ${portfolio.total_profit():.2f}")
     
     total_profit = []
 
@@ -432,4 +439,4 @@ if ticker_symbol:
         # Total profit
         total_profit.append(portfolio.total_profit())
 
-    st.header(f"With an inital investment of $100,000 in this stock, the total profit of trading based upon MACD signals will be ${sum(total_profit):.2f}")
+    st.header(f"With an inital investment of ${init_cash} in this stock, the total profit of trading based upon MACD signals will be ${sum(total_profit):.2f}")
