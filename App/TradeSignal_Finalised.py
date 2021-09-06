@@ -155,8 +155,8 @@ if ticker_symbol:
     lower_series = pd.Series(conf[:, 0], index=pd.date_range(tickers['Close'].index[-1] + datetime.timedelta(days=1), periods=5).tolist())
     upper_series = pd.Series(conf[:, 1], index=pd.date_range(tickers['Close'].index[-1] + datetime.timedelta(days=1), periods=5).tolist())
     
-    plt.figure(figsize=(12,5), dpi=100)
 
+    plt.figure(figsize=(12,5), dpi=100)
     plt.plot(tickers['Close'], label='Actual')
     plt.plot(fc_series, label='Forecast')
     plt.fill_between(lower_series.index, lower_series, upper_series, 
