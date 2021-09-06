@@ -32,6 +32,11 @@ Our project aimed to determine BUY-SELL signals for any stock listed on the US S
 </p>
 
 
+<p align="center">
+    	<img src="/Image/ActualvPred.JPG" width="500" height="300">
+</p>
+
+
 - MACD indicators were used to determine bullish or bearish movement in the market to reflect stock price strengthening or weakening 
 
 ![TradeSignal](https://github.com/MishQ666/ProjectTwo-Alpha-Analysts/blob/main/Image/AMZN_MACDSig_Indv.JPG)
