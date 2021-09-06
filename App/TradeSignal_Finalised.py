@@ -145,6 +145,28 @@ if ticker_symbol:
 
     st.text(results_refined.summary())
     
+    
+    
+    # Forecast
+    fc, se, conf = results_refined.forecast(5, alpha=0.05)  # 95% conf
+
+    # Make as pandas series
+    fc_series = pd.Series(fc, index=pd.date_range(tickers['Close'].index[-1] + datetime.timedelta(days=1), periods=5).tolist())
+    lower_series = pd.Series(conf[:, 0], index=pd.date_range(tickers['Close'].index[-1] + datetime.timedelta(days=1), periods=5).tolist())
+    upper_series = pd.Series(conf[:, 1], index=pd.date_range(tickers['Close'].index[-1] + datetime.timedelta(days=1), periods=5).tolist())
+    
+    plt.figure(figsize=(12,5), dpi=100)
+
+    plt.plot(tickers['Close'], label='Actual')
+    plt.plot(fc_series, label='Forecast')
+    plt.fill_between(lower_series.index, lower_series, upper_series, 
+                     color='k', alpha=.15)
+    plt.title('Forecast vs Actuals')
+    plt.legend(loc='upper left', fontsize=8)
+    st.pyplot(plt)
+    
+    
+    
     # Forecast close prices
     predicted_df = pd.DataFrame(results_refined.forecast(steps=5)[0],
                                 index=pd.date_range(tickers['Close'].index[-1] + datetime.timedelta(days=1), periods=5).tolist())
